@@ -32,8 +32,22 @@ export default defineConfig({
       '/config/': [
         { text: 'Introduction', link: '/config/' },
         { text: 'General', link: '/config/general' },
-        { text: 'Keybinds', link: '/config/keybinds' },
-        { text: 'Styles', link: '/config/style' }
+        {
+          text: 'Styles', items: [
+            { text: 'General', link: '/config/styles/' },
+            { text: 'Icons', link: '/config/styles/icons' },
+            { text: 'Task Styles', link: '/config/styles/taskstyles' },
+            { text: 'Renderer', link: 'config/styles/renderer' }
+          ]
+        },
+        {
+          text: 'Keybinds', items: [
+            { text: 'General', link: '/config/keybinds/' },
+            { text: 'Global', link: '/config/keybinds/global' },
+            { text: 'Home', link: '/config/keybinds/home' },
+            { text: 'Daily', link: '/config/keybinds/daily' },
+          ]
+        }
       ]
     },
     lastUpdated: {

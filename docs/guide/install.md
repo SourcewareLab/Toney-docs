@@ -1,5 +1,9 @@
 # Installation
 
+<br>
+
+**Make sure to run `Toney init` after installation**
+
 ## Linux
 
 ### Arch Linux (AUR)
